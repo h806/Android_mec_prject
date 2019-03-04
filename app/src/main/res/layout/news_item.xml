@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    android:background="#cecccc">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imgnews"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:weightSum="12">
+
+                <TextView
+                    android:id="@+id/newstitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="end"
+                    android:layout_weight="7"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/newssubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="end"
+                    android:layout_weight="5"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

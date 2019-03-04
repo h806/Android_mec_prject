@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffd000</color>
+    <color name="toollbar">#000000</color>
+    <color name="back">#040406</color>
+    <color name="statusbar">#e307082d</color>
+    <color name="backitem">#d0a9b7ff</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffd900</color>
+    <color name="blue">#7678ff</color>
+    <color name="red">#d20000</color>
+    <color name="green">#014800</color>
+    <color name="orange">#f27500</color>
+    <color name="b">#4db6ac</color>
+    <color name="view">#bbff0f</color>
+</resources>

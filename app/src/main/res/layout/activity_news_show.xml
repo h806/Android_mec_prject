@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layoutDirection="ltr"
+        tools:context=".lessons.ShowActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/course_toolbar"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/news_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="الکترونها"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/news_img"
+            android:layout_height="0dp"
+            android:src="@drawable/news"
+            android:layout_weight="0.2"/>
+
+        <com.h.mechanicalengineering.news.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_description"/>
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_webview">
+
+        </WebView>
+    </LinearLayout>
+
+</ScrollView>

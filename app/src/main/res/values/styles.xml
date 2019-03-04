@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/back</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="ActionBar." parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/toollbar</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/statusbar</item>
+        <item name="colorPrimaryDark">@color/back</item>
+    </style>
+
+    <style name="DialogAnimations.SmileWindow" parent="DialogAnimations">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="searchView" parent="AppTheme">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+
+    </style>
+</resources>

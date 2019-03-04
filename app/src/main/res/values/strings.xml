@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">مهندسی مکانیک</string>
+    <string name="mechanic">mechanic</string>
+    <string name="dictionary">دیکشنری</string>
+    <string name="courses">عنوان مطالب</string>
+    <string name="employment">استخدام</string>
+    <string name="news">اخبار علمی</string>
+    <string name="open_drawer">open navigation drawer</string>
+    <string name="close_drawer">close navigation drawer</string>
+    <string name="search">search</string>
+    <string name="titles">عناوین</string>
+    <string name="dictionary_activity">دیکشنری</string>
+    <string name="toolAds">اگهی ها</string>
+    <string name="searchads">جست و جوی عنوان شغلی</string>
+</resources>
